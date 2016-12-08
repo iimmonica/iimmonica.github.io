@@ -1,3 +1,31 @@
 body{
+	font-family: Arial;
+}
+.first-page{
 	font-family: STXingkai;
+}
+.second-page{
+	font-family: STLiti;
+}
+.last-page{
+	font-family: Trebuchet MS;
+}
+.d_bar_code-img{
+	width: 300px;
+}
+.d_bar_code-img-box{
+	min-width: 220px;
+}
+@media (max-width: 991px) {
+	.d_bar_code-img{
+		width: 250px;
+	}
+}
+@media (max-width: 767px) {
+	.d_bar_code-img{
+		width: 200px;
+	}
+/*	.contact-box{
+		text-align: center !important;
+	}*/
 }
