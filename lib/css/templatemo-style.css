@@ -253,7 +253,9 @@ a:focus {
     margin-right: auto;
     overflow: auto;
 }
-
+.tm-icon-text-boxes-container>div{
+	min-height: 350px;
+}
 .tm-icon-text-box-title { margin-bottom: 1.4rem; }
 
 .tm-icon-text-box-description {
