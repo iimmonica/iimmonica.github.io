@@ -16,6 +16,12 @@ body{
 .d_bar_code-img-box{
 	min-width: 220px;
 }
+.tm-icon-text-box-title{
+	text-align: center;
+	font-size: 3.5rem;
+	color: azure;
+}
+
 @media (max-width: 991px) {
 	.d_bar_code-img{
 		width: 250px;
