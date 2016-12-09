@@ -237,7 +237,8 @@ a:focus {
 	background-color: #d3e6f8;
 	border: 1px solid white;
 	padding: 3rem;
-	max-width: 400px;	
+	max-width: 400px;
+	min-height: 350px;
 }
 
 .tm-icon-text-box > .fa {
@@ -253,9 +254,7 @@ a:focus {
     margin-right: auto;
     overflow: auto;
 }
-.tm-icon-text-boxes-container>div{
-	min-height: 350px;
-}
+
 .tm-icon-text-box-title { margin-bottom: 1.4rem; }
 
 .tm-icon-text-box-description {
