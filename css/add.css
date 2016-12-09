@@ -26,12 +26,21 @@ body{
 	.d_bar_code-img{
 		width: 250px;
 	}
+	
 }
 @media (max-width: 767px) {
 	.d_bar_code-img{
 		width: 200px;
 	}
+	.tm-icon-text-box{
+		min-height: 355px;
+	}
 /*	.contact-box{
 		text-align: center !important;
 	}*/
+}
+@media (max-width: 640px) {
+	.tm-icon-text-box{
+		min-height: 450px;
+	}
 }
